@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>System Design & Design Patterns</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1d2671, #c33764);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1100px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 2.6rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      opacity: 0.85;
+      margin-bottom: 40px;
+    }
+
+    section {
+      margin-bottom: 45px;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+      border-left: 5px solid #fff;
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    a.card {
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 16px 18px;
+      border-radius: 14px;
+      color: #fff;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    a.card:hover {
+      background: #ffffff;
+      color: #222;
+      transform: translateY(-6px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>System Design Hub</h1>
+    <div class="subtitle">
+      Low-Level Design • High-Level Design • Design Patterns
+    </div>
+
+    <!-- INTRO -->
+    <section>
+      <h2>📘 Introduction</h2>
+      <div class="grid">
+        <a class="card" href="0Intro.html">Design Patterns Overview</a>
+      </div>
+    </section>
+
+    <!-- DESIGN PATTERNS -->
+    <section>
+      <h2>🏗 Design Patterns</h2>
+      <div class="grid">
+        <a class="card" href="1Factory.html">Factory Pattern</a>
+        <a class="card" href="2Singleton.html">Singleton Pattern</a>
+        <a class="card" href="3Builder.html">Builder Pattern</a>
+        <a class="card" href="4Adapter.html">Adapter Pattern</a>
+        <a class="card" href="5Decorator.html">Decorator Pattern</a>
+        <a class="card" href="6Facade.html">Facade Pattern</a>
+        <a class="card" href="7Strategy.html">Strategy Pattern</a>
+        <a class="card" href="8Observer.html">Observer Pattern</a>
+      </div>
+    </section>
+
+    <!-- LLD DESIGN PROBLEMS -->
+    <section>
+      <h2>🧠 Low-Level Design (LLD)</h2>
+      <div class="grid">
+        <a class="card" href="0. Design Connect Four.html">Design Connect Four</a>
+        <a class="card" href="1. Design Blackjack.html">Design Blackjack</a>
+        <a class="card" href="2. Design a Parking Lot.html">Design Parking Lot</a>
+        <a class="card" href="3. Design a Bank.html">Design Bank System</a>
+        <a class="card" href="4. Design a Movie Recommendation.html">
+          Movie Recommendation System
+        </a>
+        <a class="card" href="5. Design an Elevator.html">Design Elevator System</a>
+        <a class="card" href="6. Design Chess.html">Design Chess Game</a>
+      </div>
+    </section>
+
+    <!-- NEW SECTION (5 MORE ADDED) -->
+    <section>
+      <h2>🚀 Advanced / Interview Favorite Designs</h2>
+      <div class="grid">
+        <a class="card" href="9. Design a Rate Limiter.html">Design Rate Limiter</a>
+        <a class="card" href="10. Design a URL Shortener.html">Design URL Shortener</a>
+        <a class="card" href="11. Design Cache System.html">Design Cache System</a>
+        <a class="card" href="12. Design Notification System.html">Design Notification System</a>
+        <a class="card" href="13. Design Online Voting System.html">
+          Design Online Voting System
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 • System Design & Interview Preparation
+    </footer>
+  </div>
+</body>
+</html>
